@@ -1,0 +1,18 @@
+{
+  "name": "bunbackend",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
